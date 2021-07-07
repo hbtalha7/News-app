@@ -1,0 +1,40 @@
+.sBody{
+    background-image: url('https://www.sagatraining.ca/wp-content/uploads/2018/10/background-images-for-login-form-8.jpg');
+    background-repeat: no-repeat;
+    /* background-size: cover; */
+    height: 100%;
+    color: white;
+    background-position: center;
+    font-family: sans-serif;
+}
+.login{
+    padding: 1rem;
+    width: 320px;
+    height: 420px;
+    top: 60%;
+    left: 50%;
+    position: relative;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    /* display: block;
+    margin:1rem;
+    padding: 1rem;
+    align-content: space-between;
+    align-self:center; */
+}
+button.block{
+    width: 100%;
+}
+.form{
+    max-width: 60rem;
+    margin: 0 auto;
+}
+.form > div{
+    display: flex;
+    flex-direction: column;
+    margin: 1rem;
+}
+.form label{
+    margin: 1rem 0;
+    display: block;
+}

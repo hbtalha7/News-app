@@ -1,5 +1,6 @@
 body {
   margin: 0;
+  background-color: #abdbe3;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
     sans-serif;
@@ -10,4 +11,133 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+#Home{
+  display: block;
+  margin:0.1%;
+  margin-left: 6%;
+  padding: 1rem;
+  border: 1px;
+  padding: 1rem;
+}
+.col-3{
+  padding: 1rem;
+  background-color: #eeeef4;
+  border-top-left-radius: 0.5rem;
+  border-bottom-left-radius: 0.5rem;
+}
+.col-8{
+  padding: 1rem;
+  border-top-right-radius: 0.5rem;
+  border-bottom-right-radius: 0.5rem;
+  background-color: #eeeee4;
+}
+#Menulist{
+  margin: 1rem;
+  background-color: white;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+#DP{
+  background-color: aqua;
+  border-radius: 3rem;
+}
+button{
+  margin: 0.4rem;
+  border-radius: 0.5rem;
+  font-size: smaller;
+
+}
+#newscontent{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+#NewsContainer{
+  justify-content: center;
+  border-block: inherit;
+  width: 90%;
+}
+.card{
+  border: 0.1rem #a4a4a4 solid;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;    
+  font-size: 0.8rem;
+    box-shadow: 5px 10px 18px #888888;
+}
+.card-body{
+  padding: 1rem;
+  padding-bottom: 0;
+}
+
+i{
+  font-size: 1rem;
+  color:red;
+  text-align: center;
+}
+#close{
+  width: 50px;
+  height: 50px;
+ border-radius: 50%;
+}
+.cardverti{
+  border: 0.1rem #a4a4a4 solid;
+  background-color: aliceblue;
+  border-radius: 0.5rem;
+  margin-bottom: 0.5rem;    
+  font-size: 0.8rem;
+  box-shadow: 5px 10px 18px #888888;
+}
+.card-bodyverti{
+  padding: 1rem;
+  padding-bottom: 0;
+}
+#NewsContainerVeri{
+  width: 15rem;
+  height: 15rem;
+  justify-content: center;
+  border-block: inherit;
+  overflow: hidden;
+}
+#closeverti{
+  width: 10px;
+  height: 10px;
+ border-radius: 50%;
+ text-align: right;
+
+}
+#iveri{
+  color:red;
+  text-align: right; 
+  padding-right: 0.2rem;
+  padding-top: 0.1rem;
+}
+input,label,textarea{
+  margin: 0.2rem;
+}
+#Address{
+  width: 150%;
+}
+#btnsub{
+  background-color: #97e968;
+  color: white;
+}
+#btnsubred{
+  background-color:rgb(240, 147, 147);
+  color: white;
+
+}
+#Newspage{
+  max-width: 800px;
+  width: auto;
+  height: auto; 
+  margin: 10rem;
+  padding: 1rem;
+  background-color: white;
+  border-radius: 3rem;
+}
+#htitle{
+  color: #97e968;
 }
